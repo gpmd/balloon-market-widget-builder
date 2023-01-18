@@ -1,0 +1,31 @@
+{
+  "title": "Most Popular Categories",
+  "name1": "Name",
+  "description1": "Description",
+  "url1": "https://",
+  "imageUrl1": {
+    "src": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200",
+    "type": "IMAGE_MANAGER"
+  },
+  "name2": "Name",
+  "description2": "Description",
+  "url2": "https://",
+  "imageUrl2": {
+    "src": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200",
+    "type": "IMAGE_MANAGER"
+  },
+  "name3": "Name",
+  "description3": "Description",
+  "url3": "https://",
+  "imageUrl3": {
+    "src": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200",
+    "type": "IMAGE_MANAGER"
+  },
+  "name4": "Name",
+  "description4": "Description",
+  "url4": "https://",
+  "imageUrl4": {
+    "src": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200",
+    "type": "IMAGE_MANAGER"
+  }
+}

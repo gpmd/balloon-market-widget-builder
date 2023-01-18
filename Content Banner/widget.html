@@ -1,0 +1,37 @@
+
+<style>
+    .widget--{{_.id}} {
+        margin-top: {{margin_mobile.top.value}}{{margin_mobile.top.type}};
+        margin-right: {{margin_mobile.right.value}}{{margin_mobile.right.type}};
+        margin-bottom: {{margin_mobile.bottom.value}}{{margin_mobile.bottom.type}};
+        margin-left: {{margin_mobile.left.value}}{{margin_mobile.left.type}};
+    }
+    
+    .widget--{{_.id}} .content-container {
+        background-color: {{background_color}};
+    }
+    
+    @media (min-width: 801px) {
+        .widget--{{_.id}} {
+            margin-top: {{margin_desktop.top.value}}{{margin_desktop.top.type}};
+            margin-right: {{margin_desktop.right.value}}{{margin_desktop.right.type}};
+            margin-bottom: {{margin_desktop.bottom.value}}{{margin_desktop.bottom.type}};
+            margin-left: {{margin_desktop.left.value}}{{margin_desktop.left.type}};
+        }
+    }
+</style>
+
+<div class="widget widget--{{_.id}} content-banner image-location--{{image_location}}">
+    <div class="content-container">
+        <a href="{{url}}" class="image">
+            <img src="{{imageUrl.src}}" alt="{{title}}" loading="lazy">
+        </a>
+        <div class="content">
+            <h2 class="title">{{title}}</h2>
+            <p class="description">{{description}}</p>
+            <div class="actions">
+                <a href="{{url}}" class="uppercase btn-primary btn-primary--no-fill">{{button_text}}</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,120 @@
+[
+  {
+    "type": "tab",
+    "label": "Design",
+    "sections": [
+      {
+        "label": "Styling",
+        "settings": [
+          {
+            "type": "select",
+            "id": "image_location",
+            "label": "Image location on desktop",
+            "default": "left",
+            "typeMeta": {
+              "selectOptions": [
+                {
+                  "label": "Left",
+                  "value": "left"
+                },
+                {
+                  "label": "Right",
+                  "value": "right"
+                }
+              ]
+            }
+          },
+          {
+            "type": "input",
+            "id": "background_color",
+            "label": "Background Color",
+            "default": "#98000F"
+          },
+          {
+            "type": "boxModel",
+            "id": "margin_mobile",
+            "label": "Margin Mobile",
+            "default": {
+              "top": {
+                "value": "0",
+                "type": "px"
+              },
+              "right": {
+                "value": "0",
+                "type": "px"
+              },
+              "bottom": {
+                "value": "8",
+                "type": "px"
+              },
+              "left": {
+                "value": "0",
+                "type": "px"
+              }
+            }
+          },
+          {
+            "type": "boxModel",
+            "id": "margin_desktop",
+            "label": "Margin Desktop",
+            "default": {
+              "top": {
+                "value": "0",
+                "type": "px"
+              },
+              "right": {
+                "value": "0",
+                "type": "px"
+              },
+              "bottom": {
+                "value": "24",
+                "type": "px"
+              },
+              "left": {
+                "value": "0",
+                "type": "px"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "label": "Content",
+        "settings": [
+          {
+            "type": "input",
+            "id": "title",
+            "label": "Title",
+            "default": "Title"
+          },
+          {
+            "type": "input",
+            "id": "description",
+            "label": "Description",
+            "default": "Description"
+          },
+          {
+            "type": "input",
+            "id": "button_text",
+            "label": "Button Text",
+            "default": "Shop Now"
+          },
+          {
+            "type": "input",
+            "id": "url",
+            "label": "URL",
+            "default": "https://"
+          },
+          {
+            "type": "imageManager",
+            "id": "imageUrl",
+            "default": {
+              "src": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200",
+              "type": "IMAGE_MANAGER"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
