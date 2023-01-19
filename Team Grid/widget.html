@@ -2,16 +2,123 @@
     <div class="title">
         <h2>Meet our Team</h2>
     </div>
+    
     <div class="content-container">
-        <a href="#" class="content">
-            <img src="{{imageUrl1.src}}" alt="" loading="lazy">
-            <img src="{{imageUrl2.src}}" alt="" loading="lazy">
-            <img src="{{imageUrl3.src}}" alt="" loading="lazy">
-            <img src="{{imageUrl4.src}}" alt="" loading="lazy">
-            <img src="{{imageUrl5.src}}" alt="" loading="lazy">
-            <img src="{{imageUrl6.src}}" alt="" loading="lazy">
-            <img src="{{imageUrl7.src}}" alt="" loading="lazy">
+        <div class="content">
+            <a href="{{url1}}">
+                <img src="{{imageUrl1.src}}" alt="" loading="lazy">
+                
+                <div class="hover">
+                    {{#if hoverIcon1}}
+                        <svg height="24px" width="24px" class="icon">
+                            <use xlink:href="#icon-{{hoverIcon1}}"></use>
+                        </svg>
+                    {{/if}}
+                    
+                
+                    {{#if hoverText1}}
+                        <span class="text">{{hoverText1}}</span>
+                    {{/if}}
+                </div>
+            </a>
+            
+            <a href="{{url2}}">
+                <img src="{{imageUrl2.src}}" alt="" loading="lazy">
+                
+                <div class="hover">
+                    {{#if hoverIcon2}}
+                        <svg height="24px" width="24px" class="icon">
+                            <use xlink:href="#icon-{{hoverIcon2}}"></use>
+                        </svg>
+                    {{/if}}
+                
+                    {{#if hoverText2}}
+                        <span class="text">{{hoverText2}}</span>
+                    {{/if}}
+                </div>
+            </a>
+            
+            <a href="{{url3}}">
+                <img src="{{imageUrl3.src}}" alt="" loading="lazy">
+                
+                <div class="hover">
+                    {{#if hoverIcon3}}
+                        <svg height="24px" width="24px" class="icon">
+                            <use xlink:href="#icon-{{hoverIcon3}}"></use>
+                        </svg>
+                    {{/if}}
+                
+                    {{#if hoverText3}}
+                        <span class="text">{{hoverText3}}</span>
+                    {{/if}}
+                </div>
+            </a>
+            
+            <a href="{{url4}}">
+                <img src="{{imageUrl4.src}}" alt="" loading="lazy">
+                
+                <div class="hover">
+                    {{#if hoverIcon4}}
+                        <svg height="24px" width="24px" class="icon">
+                            <use xlink:href="#icon-{{hoverIcon4}}"></use>
+                        </svg>
+                    {{/if}}
+                
+                    {{#if hoverText4}}
+                        <span class="text">{{hoverText4}}</span>
+                    {{/if}}
+                </div>
+            </a>
+            
+            <a href="{{url5}}">
+                <img src="{{imageUrl5.src}}" alt="" loading="lazy">
+                
+                <div class="hover">
+                    {{#if hoverIcon5}}
+                        <svg height="24px" width="24px" class="icon">
+                            <use xlink:href="#icon-{{hoverIcon5}}"></use>
+                        </svg>
+                    {{/if}}
+                
+                    {{#if hoverText5}}
+                        <span class="text">{{hoverText5}}</span>
+                    {{/if}}
+                </div>
+            </a>
+            
+            <a href="{{url6}}">
+                <img src="{{imageUrl6.src}}" alt="" loading="lazy">
+                
+                <div class="hover">
+                    {{#if hoverIcon6}}
+                        <svg height="24px" width="24px" class="icon">
+                            <use xlink:href="#icon-{{hoverIcon6}}"></use>
+                        </svg>
+                    {{/if}}
+                
+                    {{#if hoverText6}}
+                        <span class="text">{{hoverText6}}</span>
+                    {{/if}}
+                </div>
+            </a>
+            
+            <a href="{{url7}}">
+                <img src="{{imageUrl7.src}}" alt="" loading="lazy">
+                
+                <div class="hover">
+                    {{#if hoverIcon7}}
+                        <svg height="24px" width="24px" class="icon">
+                            <use xlink:href="#icon-{{hoverIcon7}}"></use>
+                        </svg>
+                    {{/if}}
+                    
+                    {{#if hoverText7}}
+                        <span class="text">{{hoverText7}}</span>
+                    {{/if}}
+                </div>
+            </a>
+            
             <p>Get to know us more here!</p>
-        </a>
+        </div>
     </div>
 </div>

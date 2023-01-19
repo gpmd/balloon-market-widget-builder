@@ -4,7 +4,7 @@
     "label": "Team Grid",
     "sections": [
       {
-        "label": "Images",
+        "label": "Image 1",
         "settings": [
           {
             "type": "imageManager",
@@ -15,6 +15,49 @@
             }
           },
           {
+            "type": "input",
+            "id": "url1",
+            "label": "URL",
+            "default": "https://"
+          },
+          {
+            "type": "input",
+            "id": "hoverText1",
+            "label": "Hover Content",
+            "default": ""
+          },
+          {
+            "type": "select",
+            "id": "hoverIcon1",
+            "label": "Hover Icon",
+            "default": "",
+            "typeMeta": {
+              "selectOptions": [
+                {
+                  "label": "None",
+                  "value": ""
+                },
+                {
+                  "label": "Instagram",
+                  "value": "instagram"
+                },
+                {
+                  "label": "Facebook",
+                  "value": "facebook"
+                },
+                {
+                  "label": "TikTok",
+                  "value": "pinterest"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Image 2",
+        "settings": [
+          {
             "type": "imageManager",
             "id": "imageUrl2",
             "default": {
@@ -22,6 +65,49 @@
               "type": "IMAGE_MANAGER"
             }
           },
+          {
+            "type": "input",
+            "id": "url2",
+            "label": "URL",
+            "default": "https://"
+          },
+          {
+            "type": "input",
+            "id": "hoverText2",
+            "label": "Hover Content",
+            "default": ""
+          },
+          {
+            "type": "select",
+            "id": "hoverIcon2",
+            "label": "Hover Icon",
+            "default": "",
+            "typeMeta": {
+              "selectOptions": [
+                {
+                  "label": "None",
+                  "value": ""
+                },
+                {
+                  "label": "Instagram",
+                  "value": "instagram"
+                },
+                {
+                  "label": "Facebook",
+                  "value": "facebook"
+                },
+                {
+                  "label": "TikTok",
+                  "value": "pinterest"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Image 3",
+        "settings": [
           {
             "type": "imageManager",
             "id": "imageUrl3",
@@ -31,6 +117,49 @@
             }
           },
           {
+            "type": "input",
+            "id": "url3",
+            "label": "URL",
+            "default": "https://"
+          },
+          {
+            "type": "input",
+            "id": "hoverText3",
+            "label": "Hover Content",
+            "default": ""
+          },
+          {
+            "type": "select",
+            "id": "hoverIcon3",
+            "label": "Hover Icon",
+            "default": "",
+            "typeMeta": {
+              "selectOptions": [
+                {
+                  "label": "None",
+                  "value": ""
+                },
+                {
+                  "label": "Instagram",
+                  "value": "instagram"
+                },
+                {
+                  "label": "Facebook",
+                  "value": "facebook"
+                },
+                {
+                  "label": "TikTok",
+                  "value": "pinterest"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Image 4",
+        "settings": [
+          {
             "type": "imageManager",
             "id": "imageUrl4",
             "default": {
@@ -38,6 +167,49 @@
               "type": "IMAGE_MANAGER"
             }
           },
+          {
+            "type": "input",
+            "id": "url4",
+            "label": "URL",
+            "default": "https://"
+          },
+          {
+            "type": "input",
+            "id": "hoverText4",
+            "label": "Hover Content",
+            "default": ""
+          },
+          {
+            "type": "select",
+            "id": "hoverIcon4",
+            "label": "Hover Icon",
+            "default": "",
+            "typeMeta": {
+              "selectOptions": [
+                {
+                  "label": "None",
+                  "value": ""
+                },
+                {
+                  "label": "Instagram",
+                  "value": "instagram"
+                },
+                {
+                  "label": "Facebook",
+                  "value": "facebook"
+                },
+                {
+                  "label": "TikTok",
+                  "value": "pinterest"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Image 5",
+        "settings": [
           {
             "type": "imageManager",
             "id": "imageUrl5",
@@ -47,6 +219,49 @@
             }
           },
           {
+            "type": "input",
+            "id": "url5",
+            "label": "URL",
+            "default": "https://"
+          },
+          {
+            "type": "input",
+            "id": "hoverText5",
+            "label": "Hover Content",
+            "default": ""
+          },
+          {
+            "type": "select",
+            "id": "hoverIcon5",
+            "label": "Hover Icon",
+            "default": "",
+            "typeMeta": {
+              "selectOptions": [
+                {
+                  "label": "None",
+                  "value": ""
+                },
+                {
+                  "label": "Instagram",
+                  "value": "instagram"
+                },
+                {
+                  "label": "Facebook",
+                  "value": "facebook"
+                },
+                {
+                  "label": "TikTok",
+                  "value": "pinterest"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Image 6",
+        "settings": [
+          {
             "type": "imageManager",
             "id": "imageUrl6",
             "default": {
@@ -55,11 +270,92 @@
             }
           },
           {
+            "type": "input",
+            "id": "url6",
+            "label": "URL",
+            "default": "https://"
+          },
+          {
+            "type": "input",
+            "id": "hoverText6",
+            "label": "Hover Content",
+            "default": ""
+          },
+          {
+            "type": "select",
+            "id": "hoverIcon6",
+            "label": "Hover Icon",
+            "default": "",
+            "typeMeta": {
+              "selectOptions": [
+                {
+                  "label": "None",
+                  "value": ""
+                },
+                {
+                  "label": "Instagram",
+                  "value": "instagram"
+                },
+                {
+                  "label": "Facebook",
+                  "value": "facebook"
+                },
+                {
+                  "label": "TikTok",
+                  "value": "pinterest"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Image 7",
+        "settings": [
+          {
             "type": "imageManager",
             "id": "imageUrl7",
             "default": {
               "src": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=372&h=340",
               "type": "IMAGE_MANAGER"
+            }
+          },
+          {
+            "type": "input",
+            "id": "url7",
+            "label": "URL",
+            "default": "https://"
+          },
+          {
+            "type": "input",
+            "id": "hoverText7",
+            "label": "Hover Content",
+            "default": ""
+          },
+          {
+            "type": "select",
+            "id": "hoverIcon7",
+            "label": "Hover Icon",
+            "default": "",
+            "typeMeta": {
+              "selectOptions": [
+                {
+                  "label": "None",
+                  "value": ""
+                },
+                {
+                  "label": "Instagram",
+                  "value": "instagram"
+                },
+                {
+                  "label": "Facebook",
+                  "value": "facebook"
+                },
+                {
+                  "label": "TikTok",
+                  "value": "pinterest"
+                }
+              ]
             }
           }
         ]
